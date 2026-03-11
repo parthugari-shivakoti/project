@@ -11,7 +11,7 @@ import tempfile
 # CONFIG
 # -----------------------------
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-MODEL_PATH = r"C:\Users\madhu\Documents\project\BrainTumorUI\hybrid_unet_qml.pth"
+MODEL_PATH = r"BrainTumorUI/hybrid_unet_qml.pth"
 
 st.set_page_config(page_title="Brain Tumor Segmentation", layout="wide")
 st.title("🧠 Brain Tumor Segmentation")
